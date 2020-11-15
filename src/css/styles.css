@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1;
+  color: #ffffff;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/1bg-image.jpg);
+}
+
+/* .container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.search-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+input {
+  margin-left: 10px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: solid 2px rgb(124, 114, 114);
+  color: #ffffff;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.lang {
+  margin-top: 5px;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.desc-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.flag {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
